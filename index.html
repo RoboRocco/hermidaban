@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🚨 Access Restricted — Hermida Enterprise Solutions</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: black;
+      color: red;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+      background-image: radial-gradient(circle at center, #1a1a1a 0%, black 100%);
+      animation: pulse 5s infinite alternate;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      color: #ff0000;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px red;
+    }
+
+    p {
+      color: #ff6666;
+      font-size: 1rem;
+      max-width: 700px;
+      padding: 0 20px;
+    }
+
+    .warning {
+      border: 2px solid red;
+      padding: 20px;
+      border-radius: 8px;
+      background: rgba(255, 0, 0, 0.06);
+      box-shadow: 0 0 25px red;
+      margin-top: 20px;
+    }
+
+    @keyframes pulse {
+      0% {
+        background-color: black;
+      }
+      100% {
+        background-color: #1a0000;
+      }
+    }
+
+    .blink {
+      animation: blink-animation 1.1s steps(5, start) infinite;
+      font-weight: bold;
+      color: red;
+      margin-top: 30px;
+    }
+
+    @keyframes blink-animation {
+      to {
+        visibility: hidden;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🚫 ACCESS TERMINATED</h1>
+
+  <div class="warning">
+    <p><strong>Hermida Enterprise Solutions — Security Division</strong><br><br>
+    This device has been flagged due to repeated policy violations and regional infractions.<br><br>
+    <strong>Detected Region:</strong> California, United States<br>
+    <strong>Violation:</strong> Suspicious activity, political unreliability<br>
+    <strong>Policy Triggered:</strong> HTUSA+ Global Directive §04.77.1<br><br>
+    🛑 <strong>Users from California have been blocked for being liberals.</strong><br>
+    This region has been classified as high-risk under Hermida Enterprise compliance review.<br><br>
+    Your IP, browser fingerprint, and session details have been permanently logged.<br>
+    Attempts to bypass this screen may result in further escalation or reporting.
+    </p>
+  </div>
+
+  <p class="blink">Do not attempt to reconnect. This event has been recorded.</p>
+
+</body>
+</html>
